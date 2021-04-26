@@ -1,9 +1,37 @@
 .container{
     height: 700px;
-    width: 700px;
+    width: 1000px;
+    background-color: green;
+    position: relative;
 }
 
 .blu{
     height: 300px;
     width: 300px;
+    background-color: blue;
+    position: relative;
+    
+}
+
+.dx{
+    left: 330px;
+    top: 0px;
+    /* position: absolute; */
+}
+
+.box{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.left{
+    position: absolute;
+    left: 30px;
 }
