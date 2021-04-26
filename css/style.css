@@ -1,4 +1,6 @@
-.container{
+/* soluzione 1 */
+
+/* .container{
     height: 700px;
     width: 1000px;
     background-color: green;
@@ -33,5 +35,41 @@
 
 .left{
     position: absolute;
+    left: 30px;
+} */
+
+
+/* soluzione 2 */
+
+.container{
+    height: 700px;
+    width: 1000px;
+    background-color: green;
+    
+}
+
+.blu{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+   display: inline-block;
+   position: relative;
+}
+
+
+.box{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.bottom-right{
+   position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.left{
+    position: relative;
     left: 30px;
 }
